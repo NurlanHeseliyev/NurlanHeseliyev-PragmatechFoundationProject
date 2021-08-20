@@ -1,0 +1,26 @@
+justify-content-between{
+    justify-content: space-between
+}
+/*button*/
+.btn{
+    padding: 10px 25px;
+    border: solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+    .btn btn-default{
+    margin-left: 10px;
+    }
+     
+
+.btn-default{
+    background: #1B1443;
+    border: none;
+    color: white;
+    border: solid red;
+}
+ 
+
+
+
+
