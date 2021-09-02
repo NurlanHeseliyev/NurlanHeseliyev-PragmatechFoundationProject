@@ -16,7 +16,7 @@ def create_book():
         Name = request.form['Name']
         Author = request.form['Author']
         Year = request.form['Year']
-        Number = request.form['Number']
+        Number = request.form['Number']  
         Summary = request.form['Summary']
         Book = {
             'id':Books.__len__(),
