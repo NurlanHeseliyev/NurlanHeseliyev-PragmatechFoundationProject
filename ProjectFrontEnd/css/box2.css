@@ -1,6 +1,13 @@
-  
-.gallery-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
+ {
+    text-decoration: none;
+ }
+ .li{
+    list-style: none;
+ }
+ .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vb;
+    border: yellowgreen;
+ }  
