@@ -472,6 +472,19 @@ color: white ;
 .copyright-text a{
    color: red;
    text-decoration: none;
+}     
+.nav-links a {
+   text-decoration: none;
+   background: white;
+}
+.nav-links li {
+list-style: none;
+
 }
 
-
+ .col-4{
+   display: flex; 
+   justify-content: center;
+   background: #23263A;
+   color: #23263A;
+ }
