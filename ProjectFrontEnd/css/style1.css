@@ -8,17 +8,18 @@
     transition: 1s;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
-.body{
+body{
    font-family: 'Poppins', sans-serif;
    transition: 1s;
 }
 #header{
    width: 100%;
+   background-color: #1F2235;
+   padding: 40px 0;
 }
 .container-header{
    width: 100%;
    margin: auto;
-   background-color: #1F2235;
    height: 80px;
 }
 .row{
@@ -191,10 +192,11 @@ font-weight: 900;
 
 .row-2{
 
-width: 70%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 
-margin: auto;
-height: auto;
 
 }
 .grid-container {
@@ -205,19 +207,23 @@ height: auto;
    padding: 10px;
    grid-column-gap: 30px;
    grid-row-gap: 20px;
-   width: 200px;
+   width: 100%
    
  }
  .grid-item {
    background-color: #23263A;
    height: 300px;
-   width: 300px;
+   width: 100%;
    font-size: 30px;
    text-align: center;
    grid-column-gap: 10px;
    border-radius: 20px;
    text-align: left;
    padding: 20px 0 0 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
  }
  .grid-item h5 {
     color: white;
@@ -394,7 +400,12 @@ color: white ;
    padding-top: 40px;
 }
 
+.container-appeal{
+   padding: 0 0 0 81px;
+}
+
 .input-name{
+   padding-left: 80px;
    text-align: end;
 }
 .text-box-1{
@@ -473,7 +484,7 @@ color: white ;
    color: red;
    text-decoration: none;
 }     
-.nav-links a {
+/* .nav-links a {
    text-decoration: none;
    background: white;
 }
@@ -487,4 +498,4 @@ list-style: none;
    justify-content: center;
    background: #23263A;
    color: #23263A;
- }
+ } */
